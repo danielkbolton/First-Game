@@ -16,6 +16,7 @@
     background-color: red;
     position: relative;
     top: 150px;
+    left:20px;
 }
 
 #block{
@@ -25,4 +26,9 @@
     position: relative;
     top: 130px;
     left: 480px;
+    animation: block 1s infinite linear;
+}
+@keyframes block {
+    0%{left:480px;}
+    100%{left:-40px;}
 }
